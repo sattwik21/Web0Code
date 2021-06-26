@@ -475,3 +475,66 @@ header .nav .icon {
         background-position: center right;
     }
 }
+
+
+@media (max-width:500px) {
+    .main .title {
+        position: relative;
+        margin-top: 35vh;
+    }
+    .main table td:nth-child(2) {
+        display: none;
+    }
+}
+
+
+/*CARDS*/
+
+.section0 {
+    width: 100%;
+    padding: 30px;
+}
+
+.section0 .card {
+    width: 40%;
+    padding: 30px;
+    box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+    border-radius: 5px;
+    margin: 1%;
+    display: inline-block;
+    text-align: center;
+    border-top: 2px solid #00467F;
+}
+
+.section0 .banner {
+    box-shadow: 0px 0px 0px 0px rgba(1, 1, 1, 0.5);
+    border-top: 0px;
+}
+
+.section0 .card i {
+    font-size: 4em;
+    color: #00467F;
+    float: left;
+}
+
+.section0 .card p {
+    width: 80%;
+    margin-left: auto;
+}
+
+@media (max-width:900px) {
+    .section0 {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        position: relative;
+        overflow-x: auto;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+    }
+    .section0 .card {
+        display: block;
+        min-width: 90%;
+        width: 90%;
+    }
+}
