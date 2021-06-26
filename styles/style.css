@@ -283,3 +283,152 @@ header .nav .icon {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@media (max-width:1000px) {
+    header .nav {
+        width: 70%;
+    }
+}
+
+@media (max-width:920px) {
+    header .nav {
+        width: 75%;
+    }
+}
+
+@media (max-width:850px) {
+    header .nav {
+        width: 80%;
+    }
+}
+
+@media (max-width:800px) {
+    header .nav {
+        width: 90%;
+    }
+}
+
+@media (max-width:720px) {
+    header .nav {
+        height: 45px;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+    header .nav a:not(:first-child) {
+        display: block;
+        margin: 15px;
+    }
+    header .nav a.active {
+        width: 120px;
+    }
+    header .nav .icon {
+        display: block;
+        float: right;
+        position: absolute;
+        right: 15px;
+        top: 0px;
+        cursor: pointer;
+    }
+    .dropbtn {
+        margin: 5px 8px;
+    }
+    .dropdown-content a {
+        margin: 5px;
+        padding: 0px;
+    }
+    .dropdown-content:before {
+        content: "\f0d9";
+        font-family: "FontAwesome";
+        position: absolute;
+        left: -8px;
+        color: gray;
+        top: 0px;
+    }
+    .dropdown-content a:nth-child(1) {
+        margin: 0px 10px;
+        padding-left: 5px;
+    }
+    .dropdown-content {
+        position: fixed;
+        z-index: 9;
+        left: 30%;
+        margin-top: -25px;
+    }
+}
+
+#navbar {
+    background-color: #fff;
+    position: fixed;
+    top: -85px;
+    width: 100%;
+    display: block;
+    z-index: 999;
+    padding: 10px 0px;
+    transition: top 0.3s;
+    box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+#navbar .dropbtn {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    margin: 20px 10px;
+    font-family: 'Yusei Magic', sans-serif;
+    transition: 0.5s;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+#navbar .dropdown-content {
+    min-width: auto;
+    margin-top: 60px;
+}
+
+#navbar a:not(:first-child),
+#navbar .dropbtn,
+#navbar .dropdown {
+    float: right;
+}
+
+#navbar .dropdown a {
+    float: left;
+}
+
+@media (max-width:900px) {
+    #navbar {
+        display: none;
+    }
+    header .banner {
+        display: none;
+    }
+    header .nav a.active {
+        width: 200px;
+    }
+    header .nav {
+        position: fixed;
+        top: 0em;
+        width: 100%;
+        box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+        background: #fff;
+        border-radius: 0px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+}
