@@ -39,3 +39,52 @@ em {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
 }
+
+.btn1 {
+    background-image: linear-gradient(to right, #093558, #a0f754);
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 40px;
+    display: block;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.btn1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn2 {
+    background: transparent;
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 40px;
+    width: 150px;
+    display: block;
+}
+
+.btn2:hover {
+    background: #fff;
+    color: #000;
+}
+
+.header_info {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
