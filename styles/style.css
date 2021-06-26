@@ -1,0 +1,41 @@
+*,
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;
+    scrollbar-width: thin !important;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+
+/*DEFAULT*/
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+em {
+    color: #00467F;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.5em;
+}
+
+.sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
