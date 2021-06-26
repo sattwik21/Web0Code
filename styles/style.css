@@ -432,3 +432,46 @@ header .nav .icon {
         transition: 0.5s;
     }
 }
+
+
+/*MAIN*/
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: #00467F;
+    background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    background-size: 100% 100%;
+}
+
+.main .title {
+    font-size: 2em;
+}
+
+.main table td:nth-child(1) {
+    width: 50%;
+    color: #fff;
+}
+
+.main table td:nth-child(2) {
+    width: 50%;
+    background-image: url("./main_image-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: bottom;
+    height: 100vh;
+    padding: 20px;
+}
+
+@media (max-width:900px) {
+    .main .title {
+        position: relative;
+        margin-top: 20vh;
+    }
+    .main table td:nth-child(2) {
+        height: 40vh;
+        background-size: 50% 50%;
+        background-position: center right;
+    }
+}
