@@ -786,3 +786,62 @@ header .nav .icon {
     border-color: #000;
     width: 100%;
 }
+
+
+/*SECTION3*/
+
+.section3 {
+    width: 100%;
+    margin: sauto;
+    padding: 20px 0px;
+    background: #fff;
+}
+
+.section3 .price_card {
+    width: 30%;
+    box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+    text-align: center;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin: 0px 1.3%;
+}
+
+.section3 .price_card img {
+    width: 100%;
+    height: 200px;
+}
+
+.section3 .price_card ul {
+    margin: 0;
+}
+
+.section3 .price_card ul li {
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.section3 .price_card ul li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: green;
+    margin: 0px 5px;
+}
+
+.section3 .price_card ul li b {
+    font-size: 11px;
+    color: gray;
+}
+
+.section3 .price_card .btn1 {
+    margin: auto;
+}
+
+@media (max-width:900px) {
+    .section3 .price_card {
+        width: 90%;
+        display: block;
+        margin: 10px 0px;
+    }
+}
+
+
