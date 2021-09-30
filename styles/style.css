@@ -924,6 +924,18 @@ header .nav .icon {
     margin: 0% 1%;
 }
 
+.quicklinks{
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: -200px;
+}
+
+.footer .quicklinks a i{
+    padding: 5px;
+    margin: -10px;
+}
+
 @media (max-width:720px) {
     .footer {
         text-align: left;
@@ -936,5 +948,11 @@ header .nav .icon {
     }
     .footer .row a i {
         margin: 0% 3%;
+    }
+
+    .footer .quicklinks{
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
     }
 }
